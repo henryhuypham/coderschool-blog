@@ -1,12 +1,23 @@
 <p id="notice"><%= notice %></p>
 
 <div class="container">
-<h1>Huy's Blog</h1>
-<h3>My frist blog @ CoderSchool</h3>
+  <h1>Huy's Blog</h1>
+  <h3>My frist blog @ CoderSchool</h3>
 
-<%= render @articles %>
+  <div class="row">
+    <div class="col-sm-8">
+      <%= render @articles %>
+    </div>
+    <div class="col-sm-4">
+      <h2>Search article:</h2>
+      <div class="search">
+        <input type="text" class="form-control input-sm" maxlength="64" placeholder="Title"/>
+        <button type="submit" class="btn btn-primary btn-sm">Search</button>
+      </div>
+    </div>
+  </div>
 
-<br>
+  <br>
 
-<%= link_to 'New Article', new_article_path %>
+  <%= link_to 'New Article', new_article_path %>
 </div>

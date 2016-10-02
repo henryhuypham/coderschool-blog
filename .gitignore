@@ -24,3 +24,4 @@ capybara-*.html
 /public/system
 /coverage/
 /spec/tmp
+.idea/
