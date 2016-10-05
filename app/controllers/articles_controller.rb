@@ -65,7 +65,7 @@ class ArticlesController < ApplicationController
   # POST /articles/search
   def search
     check_search_params
-    @articles = Article.where("lower(title) like ?", "%#{params[:title].downcase}")
+    @articles = Article.where("lower(title) like ?", "%#{params[:title].downcase}%")
     @markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
   end
 
