@@ -25,25 +25,18 @@ The following **optional** features are implemented:
 * [ ] User can leave a comment on a post.
 * [ ] User can add "tags" to a post, and filter posts by tag.
 
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-> HINT: You can put a `walkthrough.gif` file in your project folder, add to git, and use the following syntax to embed it:  
-> `![Video Walkthrough](walkthrough.gif)`
+> Sorry I cant make a gif video of the project. I got a black screen when recording with LICEcap. It's a bug, as describe on their Github issue page: https://github.com/justinfrankel/licecap/issues/6
 >
-
-![Video Walkthrough](/path/to/your/gif/file)
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Challenges encountered while building the app:
+- There are issues that only occur on Heroku but not on localhost, e.g.: I forgot to add `tether` as a dependencies in `application.js`; everything is fine when running on localhost, but on Heroku, I cant delete articles because of errors in javascript.
+- LICEcap does not work. I tried some other GIF maker applications but they are all commercial apps, or have a limit of the length of the GIF (mostly around 30 seconds)  
 
 ## License
 
