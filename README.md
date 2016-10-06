@@ -28,9 +28,8 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
-> Sorry I cant make a gif video of the project. I got a black screen when recording with LICEcap. It's a bug, as describe on their Github issue page: https://github.com/justinfrankel/licecap/issues/6
->
+ 		  
+![Video Walkthrough](http://i.imgur.com/wvVfpZc.gifv)
 
 ## Notes
 
