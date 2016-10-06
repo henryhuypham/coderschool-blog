@@ -35,7 +35,7 @@ Here's a walkthrough of implemented user stories:
 
 Challenges encountered while building the app:
 - There are issues that only occur on Heroku but not on localhost, e.g.: I forgot to add `tether` as a dependencies in `application.js`; everything is fine when running on localhost, but on Heroku, I cant delete articles because of errors in javascript.
-- LICEcap does not work. I tried some other GIF maker applications but they are all commercial apps, or have a limit of the length of the GIF (mostly around 30 seconds)  
+- LICEcap does not work, I got this issue: https://github.com/justinfrankel/licecap/issues/6. I tried some other GIF maker applications but they are all commercial apps, or have a limit of the length of the GIF (mostly around 30 seconds). 
 
 ## License
 
